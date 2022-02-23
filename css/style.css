@@ -143,29 +143,39 @@ a{
 }
 
 .main_section{
-    height: 25%;
     background-color: blueviolet;
 }
 
 .main_section .row_main{
     height: 100%;
     width: 80%;
-    background-color: pink;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 .row_main>.col_lg{ 
     display: inline-block;
     width: 69%;
-    height: 100%;
-    background-color: cornflowerblue;
+}
+
+.row_main>.col_lg>img{
+    max-width: 69%;
+    margin-left: 110px;
 }
 
 .row_main>.col_sm{
     display: inline-block;
-    width: 30%;
-    height: 100%;
-    background-color: coral;
+    width: 25%;
+    margin-left: 40px;
+}
+
+.row_col_sm_title>h2{
+    font-size: 2.2rem;
+}
+
+.row_col_sm_paragraph>p{
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 .main_section_title{
