@@ -8,6 +8,12 @@
 Utility 
 **********************/
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /**********
  HEADER 
  *********/
@@ -55,21 +61,21 @@ Utility
     background-color: blueviolet;
 }
 
-.main_section .row{
+.main_section .row_main{
     height: 100%;
     width: 80%;
     background-color: pink;
     margin: 0 auto;
 }
 
-.row>.col_lg{ 
+.row_main>.col_lg{ 
     display: inline-block;
     width: 69%;
     height: 100%;
     background-color: cornflowerblue;
 }
 
-.row>.col_sm{
+.row_main>.col_sm{
     display: inline-block;
     width: 30%;
     height: 100%;
@@ -112,4 +118,47 @@ Utility
  .site_footer{
      height: 100vh;
      background-color: blue;
+ }
+
+ .row_footer{
+     width: 70%;
+     height: 70%;
+     background-color: aqua;
+     margin: 0 auto;
+ }
+
+ .col_lg_footer{
+     width: 30%;
+     height: 100%;
+     background-color: coral;
+     float: left;
+ }
+
+ .col_sm_footer{
+     width: 17%;
+     height: 100%;
+     background-color: cadetblue;
+     border: 1px solid black;
+     float: left;
+ }
+
+ .footerbar{
+     width: 70%;
+     height: 10%;
+     background-color: brown;
+     margin: 0 auto;
+ }
+
+ .logo_discord{
+     width: 30%;
+     height: 100%;
+     float: left;
+     background-color: aquamarine;
+ }
+
+ .button_footer{
+     float: right;
+     width: 30%;
+     height: 100%;
+     background-color:chartreuse;
  }
