@@ -26,13 +26,16 @@ a{
 .position_relative{
     position: relative;
 }
+
+.bg_grey{
+    background-color: lightgray;
+}
 /**********
  HEADER 
  *********/
 
  .site_header{
      height: 465px;
-     background-color: bisque;
     background-image: url('../img/jumbo.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,10 +144,6 @@ a{
   MAIN 
  ********************/
 
-.site_main{
-    background-color: aqua;
-}
-
 .main_section{
     height: 500px;
 }
@@ -153,7 +152,6 @@ a{
     height: 100%;
     width: 80%;
     margin: 0 auto;
-    padding-top: 50px;
 }
 
 .row_main>.col_lg{ 
@@ -182,34 +180,61 @@ a{
     font-weight: 600;
 }
 
-.main_section_title{
-    width: 50%;
-    height: 20%;
-    background-color: aquamarine;
+.main_section_title h2, p{
     margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.title_img_display>h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.title_img_display>p{
+    line-height: 1.5;
+     width: 50%;
 }
 
 .main_section_img{
-    width: 60%;
-    height: 50%;
-    background-color: azure;
+    width: 50%;
     margin: 0 auto;
+}
+
+.main_section_img>img{
+    max-width: 100%;
 }
 
 .main_section_paragraph{
     width: 30%;
     height: 10%;
-    background-color:red;
     margin: 0 auto;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .main_section_button{
-    width: 10%;
+    width: 11%;
     height: 5%;
-    background-color: chocolate;
+    background-color:#8EA1E1;
+    padding: 9px 25px;
+    border-radius: 2rem;
+    font-size: 12px;
+    font-weight: bold;
     margin: 0 auto;
 }
 
+.main_section_button a{
+    color: white;
+}
+
+.add_space{
+    height: 700px;
+}
 
 /******************
  FOOTER 
