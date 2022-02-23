@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *******************
+Utility 
+**********************/
+
+/**********
+ HEADER 
+ *********/
+
+ .site_header{
+     height: 100vh;
+     background-color: bisque;
+
+ }
+
+/* .site_header{
+    height: 100vh;
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial;
+}
+ */
+
+.navbar{
+    width: 70%;
+    height: 10%;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+.title{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    margin: 30px auto;
+}
+
+ /***************
+  MAIN 
+ ********************/
+
+.site_main{
+    height: 100vh;
+    background-color: aqua;
+}
+
+/******************
+ FOOTER 
+ ********************/
+
+ .site_footer{
+     height: 100vh;
+     background-color: blue;
+ }
