@@ -138,17 +138,18 @@ a{
  ********************/
 
 .site_main{
-    height: 100vh;
     background-color: aqua;
 }
 
 .main_section{
     background-color: blueviolet;
+    height: 500px;
 }
 
 .main_section .row_main{
     height: 100%;
     width: 80%;
+    background-color: pink;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -156,6 +157,7 @@ a{
 .row_main>.col_lg{ 
     display: inline-block;
     width: 69%;
+    background-color: cornflowerblue;
 }
 
 .row_main>.col_lg>img{
@@ -166,6 +168,7 @@ a{
 .row_main>.col_sm{
     display: inline-block;
     width: 25%;
+    background-color: coral;
     margin-left: 40px;
 }
 
