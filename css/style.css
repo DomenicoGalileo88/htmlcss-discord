@@ -50,6 +50,61 @@ Utility
     background-color: aqua;
 }
 
+.main_section{
+    height: 25%;
+    background-color: blueviolet;
+}
+
+.main_section .row{
+    height: 100%;
+    width: 80%;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.row>.col_lg{ 
+    display: inline-block;
+    width: 69%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.row>.col_sm{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    background-color: coral;
+}
+
+.main_section_title{
+    width: 50%;
+    height: 20%;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+.main_section_img{
+    width: 60%;
+    height: 50%;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+.main_section_paragraph{
+    width: 30%;
+    height: 10%;
+    background-color:red;
+    margin: 0 auto;
+}
+
+.main_section_button{
+    width: 10%;
+    height: 5%;
+    background-color: chocolate;
+    margin: 0 auto;
+}
+
+
 /******************
  FOOTER 
  ********************/
