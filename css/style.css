@@ -149,7 +149,6 @@ a{
 .main_section .row_main{
     height: 100%;
     width: 80%;
-    background-color: pink;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -157,7 +156,15 @@ a{
 .row_main>.col_lg{ 
     display: inline-block;
     width: 69%;
+<<<<<<< HEAD
     background-color: cornflowerblue;
+=======
+}
+
+.row_main>.col_lg>img{
+    max-width: 69%;
+    margin-left: 110px;
+>>>>>>> d95f8faf4300c01687d24c80c0b9c07f27bafafe
 }
 
 .row_main>.col_lg>img{
@@ -168,7 +175,10 @@ a{
 .row_main>.col_sm{
     display: inline-block;
     width: 25%;
+<<<<<<< HEAD
     background-color: coral;
+=======
+>>>>>>> d95f8faf4300c01687d24c80c0b9c07f27bafafe
     margin-left: 40px;
 }
 
