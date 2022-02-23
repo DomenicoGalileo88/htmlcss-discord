@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* *******************
 Utility 
 **********************/
@@ -24,27 +28,83 @@ Utility
 
  }
 
-/* .site_header{
+.site_header{
     height: 100vh;
     background-image: url('../img/jumbo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:initial;
+    position: relative;
 }
- */
+
+/* NAV */
 
 .navbar{
     width: 70%;
-    height: 10%;
     background-color: blueviolet;
     margin: 0 auto;
+    position: relative;
+    top: 5%;
 }
+
+.navbar div{
+    display: inline-block;
+}
+
+.logo_discord{
+    width: 19%;
+    vertical-align: middle;
+}
+
+.link_navbar{
+    width: 60%;
+    text-align: center;
+}
+
+.link_navbar>a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+.button_navbar{
+    width: 19%;
+    height: 23px;
+    position: relative;
+}
+
+.button_navbar button{
+    border-radius: 1rem;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* TITLE */
 
 .title{
     width: 50%;
     height: 50%;
     background-color: brown;
     margin: 30px auto;
+}
+
+.title>h1{
+    width: 100%;
+    height: 90%;
+    margin-top: 15% ;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.button_title{
+    width: 70%;
+    height: 10%;
+    background-color: violet;
+    margin: 0 auto;
 }
 
  /***************
@@ -149,7 +209,7 @@ Utility
      margin: 0 auto;
  }
 
- .logo_discord{
+ .logo_discord_footer{
      width: 30%;
      height: 100%;
      float: left;
